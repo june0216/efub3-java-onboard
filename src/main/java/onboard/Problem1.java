@@ -14,6 +14,7 @@ public class Problem1 {
             }
             answer = List.of(hour, minute);
         }
+        //test
         else {
             answer = List.of(hour, minute- 45);
         }
