@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Problem1 {
-    public static List<Integer> solution(Integer hour, Integer minute){
+    public static List<Integer> solution(Integer hour, Integer minute) {
         List<Integer> answer = new ArrayList<>();
         if(minute < 45) {
             hour--;
@@ -14,10 +14,10 @@ public class Problem1 {
             }
             answer = List.of(hour, minute);
         }
-        //test
         else {
             answer = List.of(hour, minute- 45);
         }
         return answer;
     }
+    
 }
